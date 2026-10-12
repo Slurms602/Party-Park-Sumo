@@ -2,6 +2,6 @@
 ## MAPS is what the game knows about this minigame (see Arena.maps).
 
 const MAPS := {
-	sumo = {name = "Sumo Ring", map = "Sumo Ring", rules = "Knock everyone off the ring. Last bowler standing wins.",
+	sumo = {name = "Sumo Ring", map = "Sumo Ring", rules = "No punches: grab belts, shove and charge to push everyone off the ring. Last one standing wins.",
 		seconds = 60.0, arena = preload("sumo_ring.gd")},
 }
